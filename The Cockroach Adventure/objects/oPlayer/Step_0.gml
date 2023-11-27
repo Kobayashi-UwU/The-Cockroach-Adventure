@@ -2,10 +2,25 @@
 // You can write your code in this editor
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check(vk_space);
+key_space = keyboard_check(vk_space);
+key_w = keyboard_check(ord("W"));
+key_jump = key_space || key_w;
 
 // calculate movement
 var move = key_right - key_left;
+
+// Add an idle state
+var idle = !key_left && !key_right;
+
+// Set sprite index based on state
+if (idle)
+{
+    sprite_index = sPlayerIdle;
+}
+else
+{
+	sprite_index = sPlayer;
+}
 
 hsp = move * walksp;
 
