@@ -19,6 +19,10 @@
   "ResourceOrderSettings": [
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sPlayerIdle","order":2,"path":"sprites/sPlayerIdle/sPlayerIdle.yy",},
+    {"name":"obj_controller","order":3,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"obj_textbox","order":2,"path":"objects/obj_textbox/obj_textbox.yy",},
+    {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"sTextbox","order":3,"path":"sprites/sTextbox/sTextbox.yy",},
   ],
 }
